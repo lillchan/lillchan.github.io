@@ -1,0 +1,62 @@
+baseURL: http://lillchan.com/
+languageCode: en-us
+title: lillchan
+theme: "PaperMod"
+enableEmoji: true
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+menu:
+  main:
+    - name: Archive
+      url: archives
+      weight: 5
+    - name: Search
+      url: search/
+      weight: 10
+    - name: Tags
+      url: tags/
+      weight: 10
+
+# required for search
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+params:
+  description: "Lillian's personal website"
+  author: "Lillian"
+  DateFormat: "January 2, 2006"
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+
+# home-info mode
+  homeInfoParams:
+    Title: "Hi, it's me."
+    Content: >
+      Overthinking all the things 😆
+
+      - Sometimes, I am also a: Software/cloud engineer. Just Dance-r. Cozy video game player.
+      
+      - Reader. Casual meditator. Lazy yogi. Cat parent and foster parent (SPCA). Snacker. Tea drinker.
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/lillchan"
+    - name: github
+      url: "https://github.com/lillchan"
+    - name: mastodon
+      url: "https://social.lol/@lillian"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/lillianc/"
+    - name: goodreads
+      url: "https://www.goodreads.com/user/show/27133254-lillian"
