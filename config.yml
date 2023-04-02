@@ -41,13 +41,13 @@ params:
 
 # home-info mode
   homeInfoParams:
-    Title: "Hi, it's me."
+    Title: "Lillian Chan"
     Content: >
-      Overthinking all the things 😆
-
-      - Sometimes, I am also a: Software/cloud engineer. Just Dance-r. Cozy video game player.
+      Software/Cloud Engineer. Reader. Casual Meditator. Lazy Yogi.
       
-      - Reader. Casual meditator. Lazy yogi. Cat parent and foster parent (SPCA). Snacker. Tea drinker.
+      - Cat Parent & SPCA Foster Parent. 🐱
+      
+      - Snacker. Tea Drinker. Just Dance-r. Cozy Video Game Player.
 
   socialIcons:
     - name: twitter
