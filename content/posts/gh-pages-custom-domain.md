@@ -3,7 +3,6 @@ title: "Custom Domain and Github Pages"
 summary: "Using my own domain with Github pages."
 date: 2023-04-02
 tags: ["coding"]
-draft: true
 ---
 
 Followed the official Github docs for [Managing a custom domain for your Github Pages site](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
